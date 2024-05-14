@@ -1,16 +1,15 @@
 # pushnotif
 
-A new Flutter project.
+Flutter Firebase Notification.
 
-## Getting Started
+Using dependencies:
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/farrelaranku/flutterfirenotif/assets/114351382/d4133e2a-860d-4e27-b85f-d126745dc67b)
 
-A few resources to get you started if this is your first Flutter project:
+1. Defining homepage, navigatorkey, and routes (for notification page) :
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://github.com/farrelaranku/flutterfirenotif/assets/114351382/194ca538-a072-4be4-8f08-a176875d04e3)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Main function to execute when the app run :
+
+![image](https://github.com/farrelaranku/flutterfirenotif/assets/114351382/e45a38a9-0290-47a2-b250-fd415216ff24)
