@@ -27,6 +27,7 @@ class FirebaseApi{
     if (message==null) return;
 
     //navigate to new screen when receive message and user tap
+    print('push');
     navigatorKey.currentState?.pushNamed(
       '/notification_screen',
       arguments:message,

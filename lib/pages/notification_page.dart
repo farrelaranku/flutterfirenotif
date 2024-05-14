@@ -11,14 +11,14 @@ class NotificationPage extends StatefulWidget {
 class _NotificationPageState extends State<NotificationPage> {
   @override
   Widget build(BuildContext context) {
-    final message = ModalRoute.of(context)!.settings.arguments as RemoteMessage;
+    final message = ModalRoute.of(context)!.settings.arguments as RemoteMessage?;
     return Scaffold(
       appBar: AppBar(title: Text("Notification")),
         body: Column(
           children : [
-            Text(message.notification!.title.toString()),
-            Text(message.notification!.body.toString()),
-            Text(message.data.toString()),
+            Text(message!.notification!.title.toString()),
+            Text(message!.notification!.body.toString()),
+            Text(message!.data.toString()),
           ],
         ),
       );

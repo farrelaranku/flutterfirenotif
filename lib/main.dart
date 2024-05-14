@@ -4,6 +4,7 @@ import 'package:pushnotif/firebase_options.dart';
 import 'package:pushnotif/pages/notification_page.dart';
 import 'pages/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
+
 final navigatorKey = GlobalKey<NavigatorState>();
 
 void main() async {
